@@ -35,7 +35,8 @@ query($page:Int) {
 """
 
 all_data = []
-for page in range(1, 55 + 1):
+page = 1
+while True:
     variables = {
         'page': page
     }
@@ -43,6 +44,9 @@ for page in range(1, 55 + 1):
     response.raise_for_status()
     data = response.json()
     all_data.append(data)
+    if len(data['data']['SiteStatistics']['anime']['nodes']) == 0:
+        break
+    page += 1
     time.sleep(1)
 
 data: dict[str, dict[datetime.date, int]] = dict(anime={}, manga={}, characters={}, staff={})
