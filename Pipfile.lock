@@ -395,11 +395,11 @@
         },
         "jsonschema": {
             "hashes": [
-                "sha256:8caf5b57a990a98e9b39832ef3cb35c176fe331414252b6e1b26fd5866f891a4",
-                "sha256:b508dd6142bd03f4c3670534c80af68cd7bbff9ea830b9cf2625d4a3c49ddf60"
+                "sha256:64b7104d72efe856bea49ca4af37a14a9eba31b40bb7238179f3803130fd34d9",
+                "sha256:aab78b34c2de001c6b692232f08c21a97b436fe18e0b817bf0511046924fceef"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==4.18.0"
+            "version": "==4.18.3"
         },
         "jsonschema-specifications": {
             "hashes": [
@@ -555,11 +555,11 @@
         },
         "nbformat": {
             "hashes": [
-                "sha256:8c8fa16d6d05062c26177754bfbfac22de644888e2ef69d27ad2a334cf2576e5",
-                "sha256:e98ebb6120c3efbafdee2a40af2a140cadee90bb06dd69a2a63d9551fcc7f976"
+                "sha256:3a7f52d040639cbd8a3890218c8b0ffb93211588c57446c90095e32ba5881b5d",
+                "sha256:b7968ebf4811178a4108ee837eae1442e3f054132100f0359219e9ed1ce3ca45"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==5.9.0"
+            "version": "==5.9.1"
         },
         "nest-asyncio": {
             "hashes": [
@@ -696,19 +696,19 @@
         },
         "platformdirs": {
             "hashes": [
-                "sha256:cec7b889196b9144d088e4c57d9ceef7374f6c39694ad1577a0aab50d27ea28c",
-                "sha256:f87ca4fcff7d2b0f81c6a748a77973d7af0f4d526f98f308477c3c436c74d528"
+                "sha256:1b42b450ad933e981d56e59f1b97495428c9bd60698baab9f3eb3d00d5822421",
+                "sha256:ad8291ae0ae5072f66c16945166cb11c63394c7a3ad1b1bc9828ca3162da8c2f"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.8.1"
+            "version": "==3.9.1"
         },
         "prometheus-client": {
             "hashes": [
-                "sha256:9c3b26f1535945e85b8934fb374678d263137b78ef85f305b1156c7c881cd11b",
-                "sha256:a77b708cf083f4d1a3fb3ce5c95b4afa32b9c521ae363354a4a910204ea095ce"
+                "sha256:21e674f39831ae3f8acde238afd9a27a37d0d2fb5a28ea094f0ce25d2cbf2091",
+                "sha256:e537f37160f6807b8202a6fc4764cdd19bac5480ddd3e0d463c3002b34462101"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.17.0"
+            "version": "==0.17.1"
         },
         "prompt-toolkit": {
             "hashes": [
